@@ -41,3 +41,7 @@ function remove(element){
     console.log("poof")
     element.parentElement.remove()
 }
+
+function runalert(element){
+    alert("You are now choosing "+element.innerHTML)
+}
