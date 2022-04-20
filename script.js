@@ -43,5 +43,5 @@ function remove(element){
 }
 
 function runalert(){
-    alert("Loading weathe report...")
+    alert("Loading weather report...")
 }
