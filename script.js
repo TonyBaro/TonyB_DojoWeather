@@ -42,6 +42,6 @@ function remove(element){
     element.parentElement.remove()
 }
 
-function runalert(element){
-    alert("You are now choosing "+element.innerHTML)
+function runalert(){
+    alert("Loading weathe report...")
 }
