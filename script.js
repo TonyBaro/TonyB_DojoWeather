@@ -6,7 +6,6 @@ var thermometer = 1
 
 function drawtemps(){
     console.log("calculating")
-    console.log(document.querySelector(".temps p").innerHTML)
     document.getElementById("t1").innerHTML = (temps[0]+"&#176")
     document.getElementById("t2").innerHTML = (temps[1]+"&#176") 
     document.getElementById("t3").innerHTML = (temps[2]+"&#176") 
