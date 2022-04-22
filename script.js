@@ -6,14 +6,9 @@ var thermometer = 1
 
 function drawtemps(){
     console.log("calculating")
-    document.getElementById("t1").innerHTML = (temps[0]+"&#176")
-    document.getElementById("t2").innerHTML = (temps[1]+"&#176") 
-    document.getElementById("t3").innerHTML = (temps[2]+"&#176") 
-    document.getElementById("t4").innerHTML = (temps[3]+"&#176") 
-    document.getElementById("t5").innerHTML = (temps[4]+"&#176") 
-    document.getElementById("t6").innerHTML = (temps[5]+"&#176") 
-    document.getElementById("t7").innerHTML = (temps[6]+"&#176")
-    document.getElementById("t8").innerHTML = (temps[7]+"&#176")   
+    for (var i = 0; i<temps.length; i++){
+    document.getElementById(`t${i+1}`).innerHTML = (temps[i]+"&#176")
+    }
 }
 drawtemps()
 
